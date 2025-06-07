@@ -6,8 +6,11 @@
 
 include catppuccin-mocha
 
+# start blueman tray
+exec_always --no-startup-id blueman-applet
+
 # start network tray (nm-applet)
-exec_always nm-applet --indicator
+exec_always --no-startup-id nm-applet --indicator
 
 # font
 font pango: FiraCode Medium 14
