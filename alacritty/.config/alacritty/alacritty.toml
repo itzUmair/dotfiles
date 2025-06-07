@@ -1,0 +1,30 @@
+import = ["~/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+live_config_reload = true
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 0.9
+
+[window.padding]
+x=8
+y=8
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Heavy"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Heavy Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Medium Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Medium"

@@ -1,0 +1,87 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "FiraCode Nerd Font", sans-serif;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+#waybar > box {
+  background: #1e1e2e;
+  border-radius: 8px;
+  margin: 0 7px;
+  margin-top: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Modules */
+#workspaces button {
+  padding: 0 10px;
+  color: #cdd6f4;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+}
+
+#workspaces button.focused {
+  background: #313244;
+  border-bottom: 2px solid #89b4fa;
+}
+
+#workspaces button.urgent {
+  background: #f38ba8;
+  color: #1e1e2e;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray {
+  padding: 0 10px;
+  margin: 0 4px;
+  background: #313244;
+  border-radius: 6px;
+}
+
+#clock {
+  color: #89b4fa;
+}
+
+#battery.charging {
+  color: #a6e3a1;
+}
+
+#battery.warning {
+  color: #f9e2af;
+}
+
+#battery.critical {
+  color: #f38ba8;
+}
+
+#pulseaudio {
+  color: #f5c2e7;
+}
+
+#network {
+  color: #94e2d5;
+}
+
+#cpu {
+  color: #fab387;
+}
+
+#memory {
+  color: #cba6f7;
+}
+
+#tray {
+  margin-right: 8px;
+}
